@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "deepmine",
+  "version": "${version}",
+  "name": "Deep Mine",
+  "description": "Overworld goes down to about -1000. Below -64 there is a blackstone layer with extra diamonds.",
+  "environment": "*",
+  "entrypoints": { "main": ["com.deepmine.DeepMine"] },
+  "depends": { "fabricloader": ">=0.14.21", "minecraft": "~1.20.1", "java": ">=17", "fabric-api": "*" }
+}
